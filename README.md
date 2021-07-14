@@ -8,6 +8,7 @@ throat radius of curvature, chamber length)
 massflow, chamber pressure, stagnation temp, etc.)
 - Reaction product mass fractions from NASA’s Chemical
 Equilibrium and Applications (CEA)
+
 Under the assumption of axisymmetric flow, an iterative solver is used to find steady-state wall temps along the nozzle spline. Those values are then used with core gas pressures to calculate principal stresses and strains in the nozzle wall. This analysis coupled with the object-oriented nature of the program will allow us to optimize the effectiveness of our cooling configuration, prolong the engines life cycle, and avoid rapid unscheduled disassembly.
 
-Main sources:
+## Main sources:
