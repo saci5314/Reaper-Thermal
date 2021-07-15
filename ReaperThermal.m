@@ -25,10 +25,10 @@ nozParams = [t_w lambda_w E a v];
 
 
 %%% ENGINE PERFORMANCE PARAMETERS
-p_c         = 1250*6895;                                                    % [N/m^2] chamber pressure
-T_0         = 3410;                                                         % [K] stagnation temp
+p_c         = ;                                                             % [N/m^2] chamber pressure
+T_0         = ;                                                             % [K] stagnation temp
 cp_g        = ;                                                             % [J/(K*kg)] specific heat of core flow at constant pressure
-gamma       = 1.2085;                                                       % specific heat ratio
+gamma       = ;                                                             % specific heat ratio
 wDot        = ;                                                             % [N/s] total prop weigth flowrate
 
 perfParams = [p_c, T_0, cp_g, gamma, wDot];
@@ -44,8 +44,8 @@ w_cc        = [];                                                           % [m
 t_j         = ;                                                             % [m] jacket thickness
 t_f         = ;                                                             % [m]fin thickness
 
-dm_f        = ;                                                                    % [kg/s] film massflow
-lInj        = 0;                                                                   % [m] axial position of film injection
+dm_f        = ;                                                             % [kg/s] film massflow
+lInj        = ;                                                             % [m] axial position of film injection
 
 lambda_c    = ;
 Q_cVap      = ;
