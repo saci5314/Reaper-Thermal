@@ -126,7 +126,7 @@ function eng = Bartz(eng)
 
             % via [5]:
             %{
-            P = P_cr/(1+C1)^(gamma/(gamma-1));                                              % [kg/cm^2] what the fuck      
+            P = P_cr/(1+C1)^(gamma/(gamma-1));                                              % [kg/cm^2] what? this paper [5] is unclear
             p_CO2 = P*molFrac_CO2;                                                          % [kg/cm^2] partial pressure maybe???
             p_H2O = P*molFrac_H2O;                                                          % [kg/cm^2] ^^^
 
